@@ -293,11 +293,11 @@ header.nav-bar ul ul li {
   color: var(--first-color);
 }
 
-.homeintro .home__img {
+.home__img {
   float: right;
   width: 250px;
   margin-right: 40px;
-  border-radius: 100px;
+  border-radius: 50%;
   padding-right: 400px;
   padding-top: 120px;
   bottom: 100px;
@@ -1414,8 +1414,8 @@ input[type="checkbox"]:checked + label .hamburger {
   }
   .contact-sect .container-in .contact-form-in {
     flex: 0 0 50%;
-    max-width: 22%;
-    padding-top: 2px;
+    max-width: 15%;
+    padding-top: 12px;
     border-radius: 10px;
     padding-left: 10px;
   }
@@ -1426,14 +1426,14 @@ input[type="checkbox"]:checked + label .hamburger {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  /* .contact-sect
+  .contact-sect
     .container-in
     .contact-form-in
     .in-box-form
     .in-box-input
     .row2 {
-    margin-top: 1px;
-  } */
+    padding-top: 20px;
+  }
 }
 
 /*RESPONSIVE ENDS HERE*/
